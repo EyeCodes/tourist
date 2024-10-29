@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./webfonts/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+  <title>Tourist</title>
+</head>
+<body>
+  <header id="navigation">
+    <div class="logo"><i class="fa fa-map-marker-alt"></i><h1>Tourist</h1></div>
+    <nav class="links">
+      <a href="" class="home">Home</a>
+      <a href="" class="about">About</a>
+      <a href="" class="services">Services</a>
+      <a href="" class="services">Packages</a>
+      <a disable>Pages ▾</a>
+      <a href="" class="services">Contacts</a>
+    </nav>
+    <div class="login"><button>Register</button></div>
+  </header>
+  <script>
+
+    const navigationBar = document.getElementById("navigation")
+
+    window.addEventListener("scroll", () => {
+      
+      if(window.scrollY > 10){
+        navigationBar.classList.add("on-scroll-header")
+        navigationBar.style.animation = "bottomScroll .5s ease"
+      }
+      else{
+        navigationBar.classList.remove("on-scroll-header")
+        navigationBar.style.animation = "topScroll .5s ease"
+      }
+    })
+    
+  </script>
+
+  <div class="hero">
+    <h1>Enjoy Your Vacation With Us</h1>
+    <h2>Temper erat elitr rebum at clita diam amet diam er eos erat ipsu, lorem sit</h2>
+    <form class="search-bar">
+      <input type="text" placeholder="Eg. Thailand"><button class="btn-search">search</button>
+    </form>
+  </div>
+
+  <div class="container-2">
+    <div class="image"></div>
+
+    <div class="sub-container-2">
+
+      <div class="info one"><h2>About us</h2></div>
+      <div class="info two"><h1>Welcome to <span style="color: lime;">Tourist</span></h1></div>
+      <div class="info three"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam amet, cum autem ipsa rerum, error cupiditate velit nulla natus vero exercitationem aliquam tenetur ut totam. Consequatur aliquam expedita officiis ut.
+      <br> <br>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat nam reiciendis nobis? Temporibus est quis sequi ducimus voluptatibus minima cum earum consequatur modi provident, vero dolorum facilis laborum atque quaerat?
+    </p></div>
+    <div class="info flight">
+      <h5>-> First Class Flight</h5>
+      <h5>-> First Class Flight</h5>
+      <h5>-> First Class Flight</h5>
+      <h5>-> First Class Flight</h5>
+      <h5>-> First Class Flight</h5>
+      <h5>-> First Class Flight</h5>
+    </div>
+    <div class="btn-container">
+      <button>Read More</button>
+    </div>
+    </div>
+  </div>
+
+  <div class = "container-3">
+    <h3>Services</h3>
+    <h1>Our Services</h1>
+
+    <div class="sub-container-3">
+      
+      <div class="card">
+        <div class="img-container"></div>
+        <div class="information-container">
+          <h2 class="name">NAME</h2>
+          <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ullam voluptatum necessitatibus corrupti sapiente exercitationem, in aliquam sunt recusandae eligendi quia aliquid commodi blanditiis qui inventore quas quae saepe hic.</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-container"></div>
+        <div class="information-container">
+          <h2 class="name">NAME</h2>
+          <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ullam voluptatum necessitatibus corrupti sapiente exercitationem, in aliquam sunt recusandae eligendi quia aliquid commodi blanditiis qui inventore quas quae saepe hic.</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-container"></div>
+        <div class="information-container">
+          <h2 class="name">NAME</h2>
+          <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ullam voluptatum necessitatibus corrupti sapiente exercitationem, in aliquam sunt recusandae eligendi quia aliquid commodi blanditiis qui inventore quas quae saepe hic.</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-container"></div>
+        <div class="information-container">
+          <h2 class="name">NAME</h2>
+          <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ullam voluptatum necessitatibus corrupti sapiente exercitationem, in aliquam sunt recusandae eligendi quia aliquid commodi blanditiis qui inventore quas quae saepe hic.</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-container"></div>
+        <div class="information-container">
+          <h2 class="name">NAME</h2>
+          <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ullam voluptatum necessitatibus corrupti sapiente exercitationem, in aliquam sunt recusandae eligendi quia aliquid commodi blanditiis qui inventore quas quae saepe hic.</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-container"></div>
+        <div class="information-container">
+          <h2 class="name">NAME</h2>
+          <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ullam voluptatum necessitatibus corrupti sapiente exercitationem, in aliquam sunt recusandae eligendi quia aliquid commodi blanditiis qui inventore quas quae saepe hic.</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-container"></div>
+        <div class="information-container">
+          <h2 class="name">NAME</h2>
+          <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ullam voluptatum necessitatibus corrupti sapiente exercitationem, in aliquam sunt recusandae eligendi quia aliquid commodi blanditiis qui inventore quas quae saepe hic.</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img-container"></div>
+        <div class="information-container">
+          <h2 class="name">NAME</h2>
+          <span class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ullam voluptatum necessitatibus corrupti sapiente exercitationem, in aliquam sunt recusandae eligendi quia aliquid commodi blanditiis qui inventore quas quae saepe hic.</span>
+        </div>
+      </div>
+    
+    </div>
+    
+    </div>
+
+  <div class="container-3 second">
+    <h3>Destination</h3>
+    <h1>Popular Destination</h1>
+    <div class="sub-container-4">
+      <div class="image-grid">
+
+        <div class="image dest-1"><img src="./img.jpg" alt=""></div>
+      <div class="image dest-2"><img src="./img.jpg" alt=""></div>
+      <div class="image dest-3"><img src="./img.jpg" alt=""></div>
+
+      </div>
+      <div class="image dest-4"><img src="./img.jpg" alt=""></div>
+    </div>
+  </div>
+</body>
+</html>
